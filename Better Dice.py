@@ -50,3 +50,5 @@ def calculateSort(nLados:int, dice1: list, dice2: list):
         elif contador2 > mitadPuntosPosibles:
             return "first"
 
+
+print(calculateSort(6, [1,2,3,4,5,6], [7,6,5,4,3,2]))
